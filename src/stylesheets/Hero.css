@@ -1,5 +1,35 @@
 .content{
     width: 100%;
-    height: 41vw;
+    /* height: 65vh; */
     background-color: #881337;
+    padding: 0 3vw;
+    gap: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.text-content{
+    width: 100%;
+    background-color: blue;
+}
+
+.text-content p{
+    font-size: 2.8em;
+    font-weight: 700;
+}
+
+.pic{
+    width: 100%;
+    /* height: 82vw; */
+    /* background-color: blue; */
+
+}
+
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
