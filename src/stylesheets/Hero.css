@@ -29,8 +29,7 @@
 }
 
 .search-info{
-    width: 100%;
-    
+    width: 100%; 
     /* padding: 0 1vw; */
     /* overflow: hidden; */
     /* background-color: crimson; */
@@ -94,6 +93,7 @@
 
 .pic{
     width: 100%;
+    position: relative;
 
 }
 
@@ -101,4 +101,116 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.pic #traced{
+    position: absolute;
+    top: .5vw;
+    left: 1.3vw;
+}
+
+@media (min-width: 1024px){
+    .content {
+        padding:0 3vw;
+        padding-top: 7vw;
+        flex-direction: row;
+        align-items: center;
+        gap: 1vw;
+    }
+
+    .text-content{
+        padding-top: 0;
+        justify-content: center;
+        padding: 0vw;
+        width: 100%;
+        /* background-color: blueviolet; */
+        gap: 2.3vw;
+    }
+
+    .text-content p{
+        
+        font-size: 15em;
+        padding-right:2vw;
+        letter-spacing: .1vh;
+    }
+
+    .search-info{
+        gap: .1vw;
+    }
+
+
+    .input-search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: .7vw;
+        /* background-color: red; */
+        
+    
+        /* background-color: blue; */
+    }
+
+    .input-search input{
+        width: 100%;
+        padding: 1vw 2.4vw;
+        border-radius: .3vw;
+        outline: none;
+        border: none;
+        font-size: 1vw;
+    }
+
+        
+    .input-search button{
+        padding: 1vw 2vw;
+        border-radius: .4vw;
+        font-size: 4em;
+    }
+
+    
+.arts{
+    position: absolute;
+    bottom:-2.3vw;
+    left: -7.4vw;
+    gap: .5vw;
+    z-index: 2;
+    /* text-align: left; */
+    white-space: nowrap;
+    font-size: 3.2em;
+}
+
+.art{
+    padding: .4vw 1vw;
+    border: 1px solid #fff;
+    border-radius: .4vw;
+
+}
+
+.pic{
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    margin-left: 5vw;
+
+
+}
+
+.pic .image{
+    padding-top: 1vw;
+    /* background-color: blue; */
+    /* width: 35vw; */
+    height: 70vh;
+}
+
+.pic img{
+    width: 115%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pic #traced{
+    position: absolute;
+    top: 1.1vw;
+    left: .5vw;
+}
+
 }

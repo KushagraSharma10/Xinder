@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <div className='content'>
       <div className='text-content'>
-        <p>Search the work of best artists</p>
+        <p>Search the work of the best artists</p>
         <div className='search-info'>
           <div className='input-search'>
             <input type="text" name="name" id="artists" placeholder='Search for artists, work name, or category' />
@@ -21,7 +21,10 @@ const Hero = () => {
         </div>
       </div>
       <div className='pic'>
+        <div className='image'>
         <img src="src\assets\hero.png" alt="" />
+        </div>
+        <img id='traced' src="src\assets\traced.png" alt="" />
       </div>
     </div>
   )
