@@ -1,19 +1,26 @@
 .content{
     width: 100%;
-    /* height: 65vh; */
+    /* height: fit-content; */
     background-color: #881337;
-    padding: 0 3vw;
-    gap: 40vw;
+    padding: 0 4vw;
+    gap: 20vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     color: #fff;
 }
 
+
+
 .text-content{
     width: 100%;
-    background-color: blue;
+    padding-top: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vw;    
+    /* background-color: blue; */
 }
 
 .text-content p{
@@ -21,10 +28,72 @@
     font-weight: 700;
 }
 
+.search-info{
+    width: 100%;
+    
+    /* padding: 0 1vw; */
+    /* overflow: hidden; */
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.1vw;
+    position: relative;
+}
+
+.input-search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+
+    /* background-color: blue; */
+}
+
+.input-search input{
+    width: 65%;
+    padding: 4vw 3vw;
+    border-radius: 1.3vw;
+    outline: none;
+    border: none;
+    font-size: 4.3vw;
+
+}
+
+.input-search button{
+    padding: 3.5vw 8vw;
+    border-radius: 2vw;
+    font-size: 1.3em;
+    border: none;
+    background-color: #BE123C;
+    color: #fff;
+
+}
+
+.arts{
+    position: absolute;
+    bottom:-10vw;
+
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+    /* margin-top: 1vw; */
+    padding-left: 7.4vw;
+    gap: 1.8vw;
+    z-index: 2;
+    text-align: left;
+    white-space: nowrap;
+}
+
+.art{
+    padding: 1.1vw;
+    border: 1px solid #fff;
+    border-radius: 1vw;
+
+}
+
 .pic{
     width: 100%;
-    /* height: 82vw; */
-    /* background-color: blue; */
 
 }
 

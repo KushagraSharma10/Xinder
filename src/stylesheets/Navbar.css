@@ -1,7 +1,9 @@
 .nav{
+    position: absolute;
     width: 100%;
     padding: 4vw;
     background-color:#881337;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: space-between;
