@@ -75,7 +75,7 @@
   }
 
   .text-headings h1 {
-    font-size: 10em;
+    font-size: 2.5em;
   }
   
   .view {
@@ -84,7 +84,7 @@
   }
   
   .view a {
-    font-size: 3.5em;
+    font-size: 1em;
   }
 
   
@@ -127,13 +127,13 @@
   }
   
   .text h3 {
-    font-size: 4em;
+    font-size: 1em;
     font-weight: 400;
     text-transform: capitalize;
   }
   
   .text h2 {
-    font-size: 5.4em;
+    font-size: 1.4em;
     font-weight: 500;
   }
   
