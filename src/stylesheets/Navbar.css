@@ -56,7 +56,7 @@
     }
     
     .heading{
-        font-size: 10em;
+        font-size: 2em;
         font-weight: 700;
     }
 
@@ -67,7 +67,7 @@
     }
     
     .links a{
-        font-size: 4em;
+        font-size: 1em;
         text-decoration: none;
         color: #fff;
         text-transform: capitalize;
@@ -75,7 +75,7 @@
 
     .links button{
         padding: 1vw 2.1vw;
-        font-size: 4em;
+        font-size: 1em;
         text-transform: capitalize;
         background-color: transparent;
         border: none;
