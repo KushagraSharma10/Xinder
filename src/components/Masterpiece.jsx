@@ -6,9 +6,9 @@ const Masterpiece = () => {
     const Latest_cards = [
         { tag: "Promoted", pic: "src/assets/latest1.png", profilePic: "src/assets/pf1.png", author: "Malvina Spring", name: "Flower Decorations" },
         { tag: "Featured", pic: "src/assets/latest2.png", profilePic: "src/assets/pf2.png", author: "Malvina Spring", name: "Flower Decorations" },
-        { tag: "Promoted", pic: "src/assets/latest3.png", profilePic: "src/assets/pf3.png", author: "Rwanda Melflor", name: "Splash" },
-        { tag: "Promoted", pic: "src/assets/latest4.png", profilePic: "src/assets/pf4.png", author: "Malvina Spring", name: "Colorful Face" },
-        { tag: "Promoted", pic: "src/assets/latest5.png", profilePic: "src/assets/pf5.png", author: "Malvina Spring", name: "Fence Spying" },
+        { tag: "", pic: "src/assets/latest3.png", profilePic: "src/assets/pf3.png", author: "Rwanda Melflor", name: "Splash" },
+        { tag: "", pic: "src/assets/latest4.png", profilePic: "src/assets/pf4.png", author: "Malvina Spring", name: "Colorful Face" },
+        { tag: "", pic: "src/assets/latest1.png", profilePic: "src/assets/pf5.png", author: "Malvina Spring", name: "Fence Spying" },
 
     ]
 
@@ -37,7 +37,9 @@ const Masterpiece = () => {
                                     <p>by {latest_card.author}</p>
                                 </div>
                             </div>
-                            <div className='card-tag'>{latest_card.tag}</div>
+                            {latest_card?.tag && (
+                                <div className='card-tag'>{latest_card.tag}</div>
+                            )}
                         </div>
                     )
                 })}
