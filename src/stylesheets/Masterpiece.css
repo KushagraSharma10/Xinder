@@ -55,7 +55,7 @@
     /* height: 90vw; */
     overflow: hidden;
     border-radius: 2vw;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
   }
 
   .card-img img{
@@ -65,6 +65,7 @@
   }
 
   .card-info{
+    background-color: #fff;
     display: flex;
     align-items: center;
     gap: 2vw;
