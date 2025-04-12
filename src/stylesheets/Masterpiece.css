@@ -56,6 +56,10 @@
     overflow: hidden;
     border-radius: 2vw;
     /* border: 1px solid #000; */
+    /* 👇 Box shadow added */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1), /* bottom */
+  4px 4px 12px rgba(0, 0, 0, 0.06); /* right */
+transition: transform 0.3s ease, box-shadow 0.3s ease;
   }
 
   .card-img img{
