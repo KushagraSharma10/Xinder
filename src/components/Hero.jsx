@@ -11,6 +11,7 @@ const Hero = () => {
         <div className='search-info'>
           <div className='input-search'>
             <input type="text" name="name" id="artists" placeholder='Search for artists, work name, or category' />
+            <img src="src\assets\search.png" alt="" />
             <button>Search</button>
           </div>
           <div className='arts'>
