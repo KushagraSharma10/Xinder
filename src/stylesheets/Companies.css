@@ -29,14 +29,14 @@
     }
 
     .icons{
-        width: 10vw;
+        width: 11vw;
     }
 
     .icons img{
         width: 100%;
-        height: 100%;
+        /* height: 110%; */
         object-fit: contain;
-        padding: 3vw 0;
+        padding: 1.5vw;
     }
     
 }
