@@ -1,5 +1,6 @@
 .content{
     width: 100%;
+    position: relative;
     /* height: fit-content; */
     background-color: #881337;
     padding: 0 4vw;
