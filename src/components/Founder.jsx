@@ -5,6 +5,8 @@ const Founder = () => {
     return (
         <div className='founder'>
             <div className='inside'>
+                <img id='left' src="src\assets\leftBtn.png" alt="" />
+                <img id='right' src="src\assets\rightBtn.png" alt="" />
                 <div className='img-div'>
                     <img id='video' src="src\assets\video.png" alt="" />
                     <img id='playbtn' src="src\assets\play.png" alt="" />
