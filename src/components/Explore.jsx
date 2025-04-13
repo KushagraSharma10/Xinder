@@ -21,7 +21,7 @@ const Explore = () => {
         </p>
         <div className="paras">
             {para_check.map((para, index) => {
-                return <div key={index} className="para">
+                return <div key={index} className="Para">
                     <img src={para.icon} alt="" />
                     <p>{para.para}</p>
                 </div>
