@@ -6,6 +6,7 @@ import Companies from './components/Companies'
 import Featured from './components/Featured'
 import Masterpiece from './components/Masterpiece'
 import Services from './components/Services'
+import Explore from './components/Explore'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Featured />
       <Masterpiece />
       <Services />
+      <Explore />
     </div>
   )
 }
