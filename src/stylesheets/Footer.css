@@ -31,3 +31,49 @@ hr{
     color: #475569;
     text-align: start;
 }
+
+@media (min-width: 1024px) {
+    .footer{
+        padding: 2vw 5vw;
+        margin-top: 2vw;
+    }
+    
+    hr{
+        color: #000;
+        margin-bottom: 2vw;
+    }
+
+    .footer-text{
+        margin-top: 3vw;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .footer-text p{
+        font-size: 1.1em;
+        color: #475569;
+    }
+    
+    .footer-links {
+        margin: 0 ;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+    }
+    
+    .footer_link img{
+        width: 1.8vw;
+        height: 1.8vw;
+        object-fit: cover;
+    }
+    
+    .footer-desc{
+        margin: 3vw 0;
+        font-size: .88em;
+        color: #475569;
+        text-align: start;
+    }
+}

@@ -12,6 +12,7 @@ import Art from './components/Art'
 import Collection from './components/Collection'
 import Links from './components/Links'
 import Footer from './components/Footer'
+import Incredible from './components/Incredible'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <Services />
       <Explore />
       <Founder />
+      <Incredible />
       <Art />
       <Collection />
       <Links />
