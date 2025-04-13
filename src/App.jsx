@@ -24,6 +24,7 @@ const App = () => {
       <Founder />
       <Art />
       <Collection />
+      <h3>helloo</h3>
     </div>
   )
 }

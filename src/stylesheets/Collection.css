@@ -8,6 +8,7 @@
     background-color: #0F172A;
     color: #fff;
     gap: 10vw;
+    
 }
 
 .col-text{
@@ -38,6 +39,47 @@
 }
 
 
-@media (mid-width: 1024px) {
+@media (min-width: 1024px) {
+    .collection{
+        padding: 0vw 5vw;
+        padding-top: 2vw ;
+        height: 56vh;
+        align-items:end;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 10em;
+        gap: 1vw;
+    }
+    
+    .col-text{
+        width: 46vw;
+        padding: 7vw 0;
+        gap: 2vw;
+        align-items: start;
+        /* background-color: red; */
+    }
+    
+    .col-text p{
+        font-size: 3.4em;
+        font-weight: 600 ;
+        text-align: start;
+    }
+    
+    .col-text button{
+        padding: 1vw 2vw;
+        font-size: 1.2em;
+        border-radius: .4vw;
+    }
+
+    .col-img{
+        width: 34vw;
+        /* background-color: red; */
+    }
+
+    .col-img img{
+        width: 110%;
+        height: 100%;
+        object-fit: cover;
+    }
     
 }
