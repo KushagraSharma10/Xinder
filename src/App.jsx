@@ -9,11 +9,12 @@ import Services from './components/Services'
 import Explore from './components/Explore'
 import Founder from './components/Founder'
 import Art from './components/Art'
+import Collection from './components/Collection'
 
 const App = () => {
   return (
     <div className='container'>
-      
+
       <Hero />
       <Companies />
       <Featured />
@@ -22,6 +23,7 @@ const App = () => {
       <Explore />
       <Founder />
       <Art />
+      <Collection />
     </div>
   )
 }
