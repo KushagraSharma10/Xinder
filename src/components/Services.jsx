@@ -15,8 +15,8 @@ const Services = () => {
     <div className='services'>
         <h1>Expanding services</h1>
         <div className='Service-icons'>
-            {Services.map((service) => {
-                return <div className='service-area'>
+            {Services.map((service, index) => {
+                return <div key={index} className='service-area'>
                     <div className='ser_icon'>
                         <img src={service.icon} alt="" />
                     </div>
