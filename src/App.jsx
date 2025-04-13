@@ -11,6 +11,7 @@ import Founder from './components/Founder'
 import Art from './components/Art'
 import Collection from './components/Collection'
 import Links from './components/Links'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Art />
       <Collection />
       <Links />
+      <Footer />
     </div>
   )
 }

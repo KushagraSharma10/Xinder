@@ -1,0 +1,33 @@
+.footer{
+    padding: 2vw 4vw;
+    margin-top: 10vw;
+}
+
+hr{
+    color: #000;
+    margin-bottom: 5vw;
+}
+
+.footer-text p{
+    font-size: 1.3em;
+    color: #475569;
+}
+
+.footer-links {
+    margin: 7vw 0 ;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.footer_link img{
+    width: 8vw;
+    height: 8vw;
+}
+
+.footer-desc{
+    margin-bottom: 3vw;
+    font-size: .88em;
+    color: #475569;
+    text-align: start;
+}
