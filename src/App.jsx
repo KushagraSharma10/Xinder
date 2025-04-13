@@ -10,6 +10,7 @@ import Explore from './components/Explore'
 import Founder from './components/Founder'
 import Art from './components/Art'
 import Collection from './components/Collection'
+import Links from './components/Links'
 
 const App = () => {
   return (
@@ -24,7 +25,7 @@ const App = () => {
       <Founder />
       <Art />
       <Collection />
-      <h3>helloo</h3>
+      <Links />
     </div>
   )
 }
