@@ -46,7 +46,7 @@
 @media (min-width : 1024px){
     .nav{
         width: 100%;
-        padding: 1.2vw 3vw;
+        padding: 1.2vw 5vw;
         background-color: #881337;
         display: flex;
         align-items: center;

@@ -110,7 +110,7 @@
 
 @media (min-width: 1024px) {
   .content {
-    padding: 0 3vw;
+    padding: 0 5vw;
     padding-top: 7vw;
     flex-direction: row;
     align-items: center;

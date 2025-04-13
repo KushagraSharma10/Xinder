@@ -40,3 +40,55 @@
     margin-top: 4.5vw;
     color: #0F172A;
 }
+
+@media (min-width: 1024px) {
+    .founder{
+        padding: 2vw 5vw;
+        margin-top: 4vw;
+        display: flex;
+        align-items: center;
+        /* justify-content: ; */
+        /* gap: 2vw; */
+
+    }
+
+    .inside{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        /* justify-content: space-between; */
+        gap: 6vw;
+        /* background-color: red; */
+    }
+    
+    .img-div{
+        width: 35vw;
+        height: 45vh;
+    }
+
+    
+.text-div{
+    margin-top: 0vw;
+    width: 30vw;
+    /* background-color: blue; */
+    padding: 2vw;
+}
+
+.text-div h1{
+    font-size: 1.1em;
+    color: #475569;
+    font-weight: 400;
+}
+
+.text-div span{
+    color: #2563EB;
+}
+
+.text-div p{
+    font-size: 1.1em;
+    margin-top: 2vw;
+    color: #0F172A;
+    text-align: left;
+}
+
+}

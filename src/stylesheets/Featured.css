@@ -64,6 +64,12 @@
 }
 
 @media (min-width: 1024px) {
+
+  .features {
+    padding: 2vw 5vw;
+
+  }
+
   .text-headings {
     flex-direction: row;
     align-items: center;

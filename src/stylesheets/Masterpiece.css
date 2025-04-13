@@ -96,7 +96,7 @@
 
 @media (min-width: 1024px) {
   .latest {
-    padding: 3vw;
+    padding: 3vw 5vw;
   }
 
   .latest-headings {
