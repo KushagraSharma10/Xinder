@@ -40,6 +40,15 @@
   color: #0f172a;
 }
 
+
+.inside #left{
+    display: none;
+  }
+
+  .inside #right{
+   display: none;
+  }
+
 @media (min-width: 1024px) {
   .founder {
     padding: 4vw 5vw;

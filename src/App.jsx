@@ -8,6 +8,7 @@ import Masterpiece from './components/Masterpiece'
 import Services from './components/Services'
 import Explore from './components/Explore'
 import Founder from './components/Founder'
+import Art from './components/Art'
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Services />
       <Explore />
       <Founder />
+      <Art />
     </div>
   )
 }
