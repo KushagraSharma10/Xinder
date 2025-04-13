@@ -7,6 +7,7 @@ import Featured from './components/Featured'
 import Masterpiece from './components/Masterpiece'
 import Services from './components/Services'
 import Explore from './components/Explore'
+import Founder from './components/Founder'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Masterpiece />
       <Services />
       <Explore />
+      <Founder />
     </div>
   )
 }

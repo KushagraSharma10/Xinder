@@ -1,0 +1,42 @@
+.founder{
+    padding: 3vw 4vw;
+    margin-top: 8vw;
+}
+
+.img-div{
+    position: relative;
+    width: 100%;
+}
+
+.img-div #video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-div #playbtn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.text-div{
+    margin-top: 10vw;
+}
+
+.text-div h1{
+    font-size: 1.5em;
+    color: #475569;
+    font-weight: 400;
+}
+
+.text-div span{
+    color: #2563EB;
+}
+
+.text-div p{
+    font-size: 1.1em;
+    margin-top: 4.5vw;
+    color: #0F172A;
+}
