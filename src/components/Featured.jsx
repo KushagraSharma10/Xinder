@@ -4,7 +4,7 @@ import "../../public/stylesheets/Featured.css"
 const Featured = () => {
 
     const cards = [
-        { pic: "/images/pic1.png", category: "pottery", heading: "Vases Family" },
+        { pic: "../../images/pic1.png", category: "pottery", heading: "Vases Family" },
         { pic: "/images/pic2.png", category: "Oil Panting", heading: "Camel Portrait" },
         { pic: "/images/pic3.png", category: "Abstract Panting", heading: "Euforia" },
         { pic: "/images/pic4.png", category: "Object Design", heading: "Classic Watch" },
