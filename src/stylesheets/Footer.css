@@ -77,3 +77,10 @@ hr{
         text-align: start;
     }
 }
+
+@media (max-width: 400px){
+    .footer-text p{
+        font-size: 1.1em;
+        color: #475569;
+    }
+}

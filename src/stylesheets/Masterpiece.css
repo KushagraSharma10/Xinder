@@ -180,3 +180,38 @@
     border-radius: 0.4vw;
   }
 }
+
+@media (max-width: 400px){
+  .profile-info h1 {
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 0.3vw;
+  }
+
+
+  .latest-headings h1 {
+    font-size: 2em;
+  }
+
+  .profile-info p {
+    font-size: 0.8em;
+    font-weight: 400;
+  }
+
+  .card-tag {
+    position: absolute;
+    top: 4vw;
+    left: 3vw;
+    padding: .7vw .9vw;
+    border-radius: 0.9vw;
+    background-color: #f1f5f9;
+    font-size: .9em;
+  }
+
+  .discover a {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  
+}

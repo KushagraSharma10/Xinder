@@ -145,3 +145,27 @@
   
   
 }
+
+
+@media (max-width: 400px){
+  .text-headings h1 {
+    font-size: 1.8em;
+  }
+
+  
+  .view a {
+    font-size: 1em;
+  }
+
+  .text h3 {
+    font-size: 1em;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  
+  .text h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+  
+}

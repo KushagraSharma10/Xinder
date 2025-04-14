@@ -82,3 +82,18 @@
     }
     
 }
+
+@media (max-width: 400px){
+    .col-text{
+        width: 100vw;
+    }
+
+    .col-text p{
+        font-size: 2em;
+        font-weight: 600 ;
+        text-align: center;
+    }
+    .col-text button{
+       font-size: 1.2em;
+    }
+}

@@ -171,3 +171,33 @@
     font-size: .9em;
   }
 }
+
+
+@media (max-width: 400px){
+
+  .Art-headings h1 {
+    font-size: 2em;
+  }
+
+  .art-info h1 {
+    font-size: 1.4em;
+  }
+  
+  .Art-view a {
+    text-decoration: none;
+    font-size: 1em;
+  }
+
+  .art-info p {
+    font-size: 1em;
+  }
+
+  .art-tag {
+    top: 3vw;
+    left: 3vw;
+    padding: .6vw 2vw;
+    /* background-color: red; */
+    border-radius: 0.8vw;
+    font-size: .9em;
+  }
+}
