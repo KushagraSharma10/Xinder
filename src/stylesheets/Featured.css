@@ -1,11 +1,11 @@
 .features {
-  padding: 2vw 4vw;
+  padding: 5.6vw 4vw;
   margin-top: 5vw;
 }
 
 .text-headings {
   display: flex;
-  padding: 3vw 0;
+  padding: 1vw 0;
   flex-direction: column;
   justify-content: center;
   gap: 6vw;
@@ -67,6 +67,7 @@
 
   .features {
     padding: 2vw 5vw;
+    margin-top: 2.5vw;
 
   }
 
@@ -115,7 +116,6 @@
     position: relative;
     border-radius: 1vw;
     overflow: hidden;
-    box-shadow: 1px 0 0 0 #333;
     /* background-color: red; */
   }
 

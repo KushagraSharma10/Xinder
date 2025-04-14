@@ -1,5 +1,5 @@
 .services{
-    padding: 2vw 4vw;
+    padding: 6vw 4vw;
     margin-top: 10vw;
 }
 
@@ -12,8 +12,9 @@
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    padding: 10vw 0;
-    gap: 4vw;
+    /* background-color: red; */
+    padding: 12vw 0;
+    gap: 5.2vw;
 }
 
 .service-area{
@@ -43,11 +44,12 @@
     color: #fff;
     border: none;
     border-radius: 1vw;
+    margin-bottom: 6vw;
 }
 
 @media (min-width: 1024px){
     .services{
-        padding: 2vw 3vw;
+        padding: 4.5vw 3vw;
         margin-top: 0vw;
     }
     
@@ -61,7 +63,7 @@
     margin-top: 3vw;
     /* background-color: red; */
     flex-wrap: nowrap;
-    padding: 2vw 1vw;
+    padding: 1vw 1vw;
     gap: 2vw;
 }
 
@@ -93,6 +95,7 @@
     color: #fff;
     border: none;
     border-radius: .3vw;
+    margin-bottom: 0vw;
 }
 
     

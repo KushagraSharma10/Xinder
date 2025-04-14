@@ -14,6 +14,8 @@ const Masterpiece = () => {
 
     return (
         <div className='latest'>
+            <img id='left' src="src\assets\leftBtn.png" alt="" />
+            <img id='right' src="src\assets\rightBtn.png" alt="" />
             <div className='latest-headings'>
                 <h1>Latest Masterpieces</h1>
                 <div className='discover'>

@@ -28,7 +28,7 @@
 }
 
 .col-text button{
-    padding: 2.4vw 6vw;
+    padding: 3vw 6vw;
     font-size: 1.5em;
     background-color: transparent;
     border: none;
@@ -43,7 +43,7 @@
     .collection{
         padding: 0vw 5vw;
         padding-top: 2vw ;
-        height: 56vh;
+        height: 65vh;
         align-items:end;
         justify-content: space-between;
         flex-direction: row;
