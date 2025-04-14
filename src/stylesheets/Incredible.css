@@ -133,3 +133,31 @@
 
       
   }
+
+  @media (max-width: 400px){
+    
+  .incre-text h1 {
+    font-size: 1.8em;
+  }
+  
+  .incre-text p {
+    font-size: .9em;
+    margin: 5vw 1vw;
+    line-height: 5vw;
+  }
+  
+  .incre-text button {
+    padding: 3.4vw 6vw;
+    font-size: 1em;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 2vw;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .incre-div {
+    margin-top: 0vw;
+  }
+
+  }

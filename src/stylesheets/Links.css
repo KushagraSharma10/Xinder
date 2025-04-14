@@ -82,3 +82,24 @@
         color: #475569;
     }
 }
+
+@media (max-width: 400px){
+    .link-heading img{
+        width: 4vw;
+        height: 4vw;
+    }
+    
+    .link-heading h3{
+        font-size: 1em;
+        color: #475569;
+        font-weight: 500;
+    }
+    
+    
+    .list a{
+        font-size: .9em;
+        text-decoration: none;
+        color: #475569;
+    }
+    
+}

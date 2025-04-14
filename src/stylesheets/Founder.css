@@ -121,3 +121,20 @@
   
 
 }
+
+
+@media (max-width: 400px) {
+
+  .founder {
+    padding: 11vw 4vw;;
+  }
+
+  .text-div h1 {
+    font-size: 1.3em;
+  }
+  
+  .text-div p {
+    font-size: 1em;
+  }
+  
+}
