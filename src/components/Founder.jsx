@@ -5,11 +5,11 @@ const Founder = () => {
     return (
         <div className='founder'>
             <div className='inside'>
-                <img id='left' src="src\assets\leftBtn.png" alt="" />
-                <img id='right' src="src\assets\rightBtn.png" alt="" />
+                <img id='left' src="/images/leftBtn.png" alt="" />
+                <img id='right' src="/images/rightBtn.png" alt="" />
                 <div className='img-div'>
-                    <img id='video' src="src\assets\video.png" alt="" />
-                    <img id='playbtn' src="src\assets\play.png" alt="" />
+                    <img id='video' src="/images/video.png" alt="" />
+                    <img id='playbtn' src="/images/play.png" alt="" />
                 </div>
                 <div className='text-div'>
                     <h1>Marie Poirot, Co-Founder <span>Art-Gal</span></h1>
