@@ -17,7 +17,7 @@ const Featured = () => {
                 <h1>Featured art categories</h1>
                 <div className='view'>
                     <a href="">View All Categories</a>
-                    <img src="src\assets\arrow-right.png" alt="" />
+                    <img src="/images/arrow-right.png" alt="" />
                 </div>
             </div>
             <div className='cards'>
