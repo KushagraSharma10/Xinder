@@ -9,7 +9,7 @@ const Collection = () => {
             <button>Join Now </button>
         </div>
         <div className='col-img'>
-            <img src="src\assets\admin.png" alt="" />
+            <img src="images/admin.png" alt="" />
         </div>
     </div>
   )
