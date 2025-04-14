@@ -1,5 +1,5 @@
 import React from "react";
-import "../stylesheets/Explore.css";
+import "../../public/stylesheets/Explore.css";
 
 const Explore = () => {
   const para_check = [

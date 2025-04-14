@@ -1,5 +1,5 @@
 import React from 'react'
-import "../stylesheets/Incredible.css"
+import "../../public/stylesheets/Incredible.css"
 const Incredible = () => {   
 
 const images = [

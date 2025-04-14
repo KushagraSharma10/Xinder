@@ -1,5 +1,5 @@
 import React from 'react'
-import "../stylesheets/Art.css"
+import "../../public/stylesheets/Art.css"
 
 const Art = () => {
 

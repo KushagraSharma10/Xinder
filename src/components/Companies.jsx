@@ -1,10 +1,10 @@
 import React from 'react'
-import "../stylesheets/Companies.css"
+import "../../public/stylesheets/Companies.css"
 
 
 const Companies = () => {
 
-    const company_paths = ["src/assets/smart-finder.png", "src/assets/Zoomerr.png", "src/assets/Shells.png", "src/assets/Waves.png", "src/assets/artVenue.png"]
+    const company_paths = ["/images/smart-finder.png", "/images/Zoomerr.png","/images/Shells.png", "/images/Waves.png", "images/artVenue.png"]
 
     return (
         <div className='companies'>

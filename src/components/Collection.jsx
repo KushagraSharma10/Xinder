@@ -1,5 +1,5 @@
 import React from 'react'
-import "../stylesheets/Collection.css"
+import "../../public/stylesheets/Collection.css"
 
 const Collection = () => {
   return (

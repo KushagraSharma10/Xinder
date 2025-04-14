@@ -1,5 +1,5 @@
 import React from 'react'
-import "../stylesheets/Navbar.css"
+import "../../public/stylesheets/Navbar.css"
 
 
 
