@@ -4,23 +4,23 @@ import "../stylesheets/Masterpiece.css"
 const Masterpiece = () => {
 
     const Latest_cards = [
-        { tag: "Promoted", pic: "src/assets/latest1.png", profilePic: "src/assets/pf1.png", author: "Malvina Spring", name: "Flower Decorations" },
-        { tag: "Featured", pic: "src/assets/latest2.png", profilePic: "src/assets/pf2.png", author: "Malvina Spring", name: "Flower Decorations" },
-        { tag: "", pic: "src/assets/latest3.png", profilePic: "src/assets/pf3.png", author: "Rwanda Melflor", name: "Splash" },
-        { tag: "", pic: "src/assets/latest4.png", profilePic: "src/assets/pf4.png", author: "Malvina Spring", name: "Colorful Face" },
-        { tag: "", pic: "src/assets/latest1.png", profilePic: "src/assets/pf5.png", author: "Malvina Spring", name: "Fence Spying" },
+        { tag: "Promoted", pic: "images/latest1.png", profilePic: "images/pf1.png", author: "Malvina Spring", name: "Flower Decorations" },
+        { tag: "Featured", pic: "images/latest2.png", profilePic: "images/pf2.png", author: "Malvina Spring", name: "Flower Decorations" },
+        { tag: "", pic: "images/latest3.png", profilePic: "images/pf3.png", author: "Rwanda Melflor", name: "Splash" },
+        { tag: "", pic: "images/latest4.png", profilePic: "images/pf4.png", author: "Malvina Spring", name: "Colorful Face" },
+        { tag: "", pic: "images/latest1.png", profilePic: "images/pf5.png", author: "Malvina Spring", name: "Fence Spying" },
 
     ]
 
     return (
         <div className='latest'>
-            <img id='left' src="src\assets\leftBtn.png" alt="" />
-            <img id='right' src="src\assets\rightBtn.png" alt="" />
+            <img id='left' src="images/leftBtn.png" alt="" />
+            <img id='right' src="images/rightBtn.png" alt="" />
             <div className='latest-headings'>
                 <h1>Latest Masterpieces</h1>
                 <div className='discover'>
                     <a href="">Discover more Masterpieces</a>
-                    <img src="src/assets/arrow-right.png" alt="" />
+                    <img src="images/arrow-right.png" alt="" />
                 </div>
             </div>
             <div className='latest-cards'>
