@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/stylesheets/Navbar.css"
+import "/stylesheets/Navbar.css"
 
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <div className='nav'>
         <h1 className='heading'>xinder</h1>
-        <div className='menu'><img src="src\assets\menu.png" alt="" /></div>
+        <div className='menu'><img src="/images/menu.png" alt="" /></div>
         {/* <div className='links'>
           <a href="">explore</a>
           <a href=""></a>
