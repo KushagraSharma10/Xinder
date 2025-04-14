@@ -1,12 +1,12 @@
 import React from 'react'
-import "../../public/stylesheets/Art.css"
+import "../stylesheets/Art.css"
 
 const Art = () => {
 
     const Art_cards = [
-        { tag: "Featured", pic: "src/assets/Art1.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Wild horse Event", tag_Bgcolor: "#F3E8FF", tag_color: "#6B21A8" },
-        { tag: "New", pic: "src/assets/Art2.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Great color", tag_Bgcolor: "#DCFCE7", tag_color: "#166534" },
-        { tag: "Coming Soon", pic: "src/assets/Art3.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Happy Father's day", tag_Bgcolor: "#FEF9C3", tag_color: "#854D0E" },
+        { tag: "Featured", pic: "images/Art1.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Wild horse Event", tag_Bgcolor: "#F3E8FF", tag_color: "#6B21A8" },
+        { tag: "New", pic: "images/Art2.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Great color", tag_Bgcolor: "#DCFCE7", tag_color: "#166534" },
+        { tag: "Coming Soon", pic: "images/Art3.png", para: "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.", name: "Happy Father's day", tag_Bgcolor: "#FEF9C3", tag_color: "#854D0E" },
 
 
     ]
@@ -17,7 +17,7 @@ const Art = () => {
                 <h1>Art Events</h1>
                 <div className='Art-view'>
                     <a href="">Explore All Events</a>
-                    <img src="src/assets/arrow-right.png" alt="" />
+                    <img src="images/arrow-right.png" alt="" />
                 </div>
             </div>
             <div className='Art-cards'>

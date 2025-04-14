@@ -1,14 +1,14 @@
 import React from 'react'
-import "../../public/stylesheets/Footer.css"
+import "../stylesheets/Footer.css"
 
 const Footer = () => {
 
     const Footer_Links = [
-        "src/assets/youtube.png",
-        "src/assets/facebook.png",
-        "src/assets/twitter.png",
-        "src/assets/instagram.png",
-        "src/assets/linkedin.png",
+        "images/youtube.png",
+        "images/facebook.png",
+        "images/twitter.png",
+        "images/instagram.png",
+        "images/linkedin.png",
     ]
 
   return (

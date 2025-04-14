@@ -1,11 +1,11 @@
 import React from 'react'
-import "../../public/stylesheets/Incredible.css"
+import "../stylesheets/Incredible.css"
 const Incredible = () => {   
 
 const images = [
-    { title: "Splash", image: "src/assets/latest3.png", profile_pic:"src/assets/pf3.png" },
-    { title: "Colorful Face", image: "src/assets/latest4.png" ,profile_pic:"src/assets/pf4.png" },
-    { title: "Fill", image: "src/assets/Spying.png" ,profile_pic:"src/assets/pf5.png" },
+    { title: "Splash", image: "images/latest3.png", profile_pic:"images/pf3.png" },
+    { title: "Colorful Face", image: "images/latest4.png" ,profile_pic:"images/pf4.png" },
+    { title: "Fill", image: "images/Spying.png" ,profile_pic:"images/pf5.png" },
   ];
 
     return (

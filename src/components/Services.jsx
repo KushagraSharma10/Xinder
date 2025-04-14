@@ -1,14 +1,14 @@
 import React from 'react'
-import "../../public/stylesheets/Services.css" 
+import "../stylesheets/Services.css" 
 const Services = () => {
 
     const Services = [
-        {name: "Nibh viverra", icon: "src/assets/service_icon1.png"},
-        {name: "Cursus amet", icon: "src/assets/service_icon2.png"},
-        {name: "Ipsum fermentum", icon: "src/assets/service_icon3.png"},
-        {name: "Quisque euismod", icon: "src/assets/service_icon4.png"},
-        {name: "Arcu vulputate", icon: "src/assets/service_icon5.png"},
-        {name: "Cras auctor", icon: "src/assets/service_icon6.png"},
+        {name: "Nibh viverra", icon: "/images/service_icon1.png"},
+        {name: "Cursus amet", icon: "/images/service_icon2.png"},
+        {name: "Ipsum fermentum", icon: "/images/service_icon3.png"},
+        {name: "Quisque euismod", icon: "/images/service_icon4.png"},
+        {name: "Arcu vulputate", icon: "/images/service_icon5.png"},
+        {name: "Cras auctor", icon: "/images/service_icon6.png"},
     ]
 
   return (

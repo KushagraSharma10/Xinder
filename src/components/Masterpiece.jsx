@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/stylesheets/Masterpiece.css"
+import "../stylesheets/Masterpiece.css"
 
 const Masterpiece = () => {
 

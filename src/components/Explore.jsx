@@ -1,17 +1,17 @@
 import React from "react";
-import "../../public/stylesheets/Explore.css";
+import "../stylesheets/Explore.css";
 
 const Explore = () => {
   const para_check = [
-    { icon: "src/assets/check.png", para: "Interdum volutpat turpis malesuada ac turpis." },
-    { icon: "src/assets/check.png", para: "Tortor ipsum pretium quis nunc.." },
-    { icon: "src/assets/check.png", para: "Vitae odio a id purus in." },
+    { icon: "images/check.png", para: "Interdum volutpat turpis malesuada ac turpis." },
+    { icon: "images/check.png", para: "Tortor ipsum pretium quis nunc.." },
+    { icon: "images/check.png", para: "Vitae odio a id purus in." },
   ];
 
   return (
     <div className="explore">
       <div className="exp-img">
-        <img src="src/assets/Col.png" alt="exp-image" />
+        <img src="images/Col.png" alt="exp-image" />
       </div>
       <div className="txt-content">
         <p id="heading">Best solution for your demanding collection</p>

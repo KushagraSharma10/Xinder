@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/stylesheets/Featured.css"
+import "../stylesheets/Featured.css"
 
 const Featured = () => {
 

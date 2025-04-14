@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/stylesheets/Founder.css"
+import "../stylesheets/Founder.css"
 
 const Founder = () => {
     return (

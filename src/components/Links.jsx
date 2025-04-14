@@ -1,11 +1,11 @@
 import React from "react";
-import "../../public/stylesheets/Links.css";
+import "../stylesheets/Links.css";
 
 const Links = () => {
     const linkData = [
         {
             heading: "Categories",
-            icon:"src/assets/world.png",
+            icon:"images/world.png",
             items: [
                 "User Interface",
                 "User Experience",
@@ -17,7 +17,7 @@ const Links = () => {
         },
         {
             heading: "Products",
-            icon:"src/assets/cloud.png",
+            icon:"images/cloud.png",
             items: [
                 "Pricing",
                 "Overview",
@@ -29,7 +29,7 @@ const Links = () => {
         },
         {
             heading: "Solutions",
-            icon:"src/assets/setting.png",
+            icon:"images/setting.png",
             items: [
                 "Brainstorming",
                 "Ideation",
@@ -41,7 +41,7 @@ const Links = () => {
         },
         {
             heading: "Resources",
-            icon:"src/assets/branch.png",
+            icon:"images/branch.png",
             items: [
                 "Help Center",
                 "Blog",
@@ -53,7 +53,7 @@ const Links = () => {
         },
         {
             heading: "Supports",
-            icon:"src/assets/headset.png",
+            icon:"images/headset.png",
             items: [
                 "Contact Us",
                 "Developers",
@@ -65,7 +65,7 @@ const Links = () => {
         },
         {
             heading: "Companies",
-            icon:"src/assets/codepen.png",
+            icon:"images/codepen.png",
             items: ["About", "Press", "Events", "Careers", "Customers", "Partners"],
         },
     ];

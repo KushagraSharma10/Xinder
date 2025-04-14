@@ -1,5 +1,5 @@
 import React from 'react'
-import "../../public/stylesheets/Companies.css"
+import "../stylesheets/Companies.css"
 
 
 const Companies = () => {

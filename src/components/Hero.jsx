@@ -1,5 +1,5 @@
 import React from 'react'
-import "/stylesheets/Hero.css"
+import "../stylesheets/Hero.css"
 import Navbar from './Navbar.jsx'
 const Hero = () => {
 
