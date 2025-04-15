@@ -17,7 +17,6 @@ import Incredible from './components/Incredible'
 const App = () => {
   return (
     <div className='container'>
-
       <Hero />
       <Companies />
       <Featured />
