@@ -30,8 +30,8 @@
 
 .links{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
     gap:6vw;
     background-color: #881337;
     position: absolute;
