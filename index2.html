@@ -1,30 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     <style>
-        h1{
-            color: red;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto";
         }
 
-        @media (min-width: 1024px){
-            h1{
-                color: blue;
-            }
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            background-color: #e3e3e3;
         }
 
-        @media (min-width: 420px) and (max-width: 768px ) {
-            h1{
-                color: black;
-            }
+
+        .container {
+            position: relative;
+            width: 100%;
+            padding: 3vw;
+            background-color: #881337;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            /* border: none; */
+
+        }
+
+        .heading {
+            font-size: 2.1em;
+            font-weight: 700;
+        }
+
+        /* .menu {
+            display: block;
+            color: #000;
+            /* background-color: red; */
+        } */
+
+        .menu img {
+            width: 7vw;
+            color: #000;
+
+        }
+
+        .links {
+            position: absolute;
+            flex-direction: column;
+            align-items: center;
+            gap: 6vw;
+            top: 0;
+            right: 0;
+            /* width: 50vw; */
+            height: 100vh;
+            background-color: #fff;
+            padding: 15vw 2vw;
+
+            display: flex;
+            display: none;
+
+        }
+
+        .links .btn {
+            top: 2vw;
+            right: 2vw;
+            position: absolute;
+            padding: 1vw 3vw;
+            font-size: 1.1em;
+            border: none;
+            background-color: transparent;
+        }
+
+        .links a {
+            text-decoration: none;
+            color: #000;
+            text-transform: capitalize;
+
+
         }
     </style>
 </head>
+
 <body>
-    <div>
-        <h1>hellooo</h1>
+    <div class="container">
+        <h1 class='heading'>xinder</h1>
+        <div onclick=toggleMenu(true) class='menu'><img src="./public/images/menu.png" alt="" /></div>
+        <div class='links'>
+            <button onclick=toggleMenu(false) class="btn">X</button>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+            <a href="">Team</a>
+            <a href="">Team & condition</a>
+            <a href="">Privacy policy</a>
+        </div>
     </div>
+    <script>
+        const btn = document.querySelector('.btn')
+        const menu = document.querySelector('.menu')
+        const links = document.querySelector(".links")
+        
+        function toggleMenu(show) {
+            links.style.display = show ? "flex" : "none"
+            console.log("hello")
+        }
+    </script>
 </body>
+
 </html>

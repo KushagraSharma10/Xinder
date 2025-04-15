@@ -1,4 +1,3 @@
-import React from 'react'
 import "../stylesheets/Incredible.css"
 const Incredible = () => {   
 
@@ -8,7 +7,7 @@ const images = [
     { title: "Fill", image: "images/Spying.png" ,profile_pic:"images/pf5.png" },
   ];
 
-    return (
+    return ( 
         <div className='incredible'>
             <div className='incre-text'>
                 <h1>Be Incredible</h1>
