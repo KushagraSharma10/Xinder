@@ -8,19 +8,19 @@ const Navbar = () => {
 
   const [showMenu, setShowMenu] = useState(false)
 
-  const toggleMenu = (show) => {
-    setShowMenu(show);
+  const toggleMenu = () => {
+    setShowMenu(!showMenu);
   }
 
   return (
     <div className='nav'>
       <h1 className='heading'>xinder</h1>
-      <div onClick={() => setShowMenu(true)} className='menu'><img src="/images/menu.png" alt="" /></div>
+      <div onClick={() => toggleMenu()} className='menu'><img src="/images/menu.png" alt="" /></div>
       <div className='links' style={{ display: showMenu ? "flex" : "none" }} >
         {links.map((link, index) => {
           return <a key={index} href="">{link}</a>
         })}
-        <button onClick={() => setShowMenu(false)} className='x'>X</button>
+        <button onClick={() => toggleMenu()} className='x'>X</button>
         <button className='join' >join now</button>
       </div>
     </div>
